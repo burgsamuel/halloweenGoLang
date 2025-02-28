@@ -38,7 +38,7 @@ func main() {
 
 	r.GET("/mapData", retrieveSpots)
 
-	r.Run("localhost:8080")
+	r.Run("localhost:8000")
 }
 
 func retrieveSpots(c *gin.Context) {
